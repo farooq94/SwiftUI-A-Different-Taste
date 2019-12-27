@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86576F2923B64ED000E53D5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86576F2823B64ED000E53D5F /* AppDelegate.swift */; };
+		86576F2B23B64ED000E53D5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86576F2A23B64ED000E53D5F /* SceneDelegate.swift */; };
+		86576F2D23B64ED000E53D5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86576F2C23B64ED000E53D5F /* ContentView.swift */; };
+		86576F2F23B64ED300E53D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86576F2E23B64ED300E53D5F /* Assets.xcassets */; };
+		86576F3223B64ED300E53D5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86576F3123B64ED300E53D5F /* Preview Assets.xcassets */; };
+		86576F3523B64ED300E53D5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86576F3323B64ED300E53D5F /* LaunchScreen.storyboard */; };
+		86576F4023B64ED400E53D5F /* SwiftUI_A_Different_TasteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86576F3F23B64ED400E53D5F /* SwiftUI_A_Different_TasteTests.swift */; };
+		86576F4B23B64ED400E53D5F /* SwiftUI_A_Different_TasteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86576F4A23B64ED400E53D5F /* SwiftUI_A_Different_TasteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86576F3C23B64ED400E53D5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86576F1D23B64ECF00E53D5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86576F2423B64ECF00E53D5F;
+			remoteInfo = "SwiftUI A Different Taste";
+		};
+		86576F4723B64ED400E53D5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86576F1D23B64ECF00E53D5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86576F2423B64ECF00E53D5F;
+			remoteInfo = "SwiftUI A Different Taste";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86576F2523B64ED000E53D5F /* SwiftUI A Different Taste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI A Different Taste.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86576F2823B64ED000E53D5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86576F2A23B64ED000E53D5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		86576F2C23B64ED000E53D5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		86576F2E23B64ED300E53D5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86576F3123B64ED300E53D5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		86576F3423B64ED300E53D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86576F3623B64ED300E53D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86576F3B23B64ED400E53D5F /* SwiftUI A Different TasteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI A Different TasteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86576F3F23B64ED400E53D5F /* SwiftUI_A_Different_TasteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_A_Different_TasteTests.swift; sourceTree = "<group>"; };
+		86576F4123B64ED400E53D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86576F4623B64ED400E53D5F /* SwiftUI A Different TasteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI A Different TasteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86576F4A23B64ED400E53D5F /* SwiftUI_A_Different_TasteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_A_Different_TasteUITests.swift; sourceTree = "<group>"; };
+		86576F4C23B64ED400E53D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86576F2223B64ECF00E53D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86576F3823B64ED400E53D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86576F4323B64ED400E53D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86576F1C23B64ECF00E53D5F = {
+			isa = PBXGroup;
+			children = (
+				86576F2723B64ED000E53D5F /* SwiftUI A Different Taste */,
+				86576F3E23B64ED400E53D5F /* SwiftUI A Different TasteTests */,
+				86576F4923B64ED400E53D5F /* SwiftUI A Different TasteUITests */,
+				86576F2623B64ED000E53D5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86576F2623B64ED000E53D5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86576F2523B64ED000E53D5F /* SwiftUI A Different Taste.app */,
+				86576F3B23B64ED400E53D5F /* SwiftUI A Different TasteTests.xctest */,
+				86576F4623B64ED400E53D5F /* SwiftUI A Different TasteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86576F2723B64ED000E53D5F /* SwiftUI A Different Taste */ = {
+			isa = PBXGroup;
+			children = (
+				86576F2823B64ED000E53D5F /* AppDelegate.swift */,
+				86576F2A23B64ED000E53D5F /* SceneDelegate.swift */,
+				86576F2C23B64ED000E53D5F /* ContentView.swift */,
+				86576F2E23B64ED300E53D5F /* Assets.xcassets */,
+				86576F3323B64ED300E53D5F /* LaunchScreen.storyboard */,
+				86576F3623B64ED300E53D5F /* Info.plist */,
+				86576F3023B64ED300E53D5F /* Preview Content */,
+			);
+			path = "SwiftUI A Different Taste";
+			sourceTree = "<group>";
+		};
+		86576F3023B64ED300E53D5F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				86576F3123B64ED300E53D5F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		86576F3E23B64ED400E53D5F /* SwiftUI A Different TasteTests */ = {
+			isa = PBXGroup;
+			children = (
+				86576F3F23B64ED400E53D5F /* SwiftUI_A_Different_TasteTests.swift */,
+				86576F4123B64ED400E53D5F /* Info.plist */,
+			);
+			path = "SwiftUI A Different TasteTests";
+			sourceTree = "<group>";
+		};
+		86576F4923B64ED400E53D5F /* SwiftUI A Different TasteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86576F4A23B64ED400E53D5F /* SwiftUI_A_Different_TasteUITests.swift */,
+				86576F4C23B64ED400E53D5F /* Info.plist */,
+			);
+			path = "SwiftUI A Different TasteUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86576F2423B64ECF00E53D5F /* SwiftUI A Different Taste */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86576F4F23B64ED400E53D5F /* Build configuration list for PBXNativeTarget "SwiftUI A Different Taste" */;
+			buildPhases = (
+				86576F2123B64ECF00E53D5F /* Sources */,
+				86576F2223B64ECF00E53D5F /* Frameworks */,
+				86576F2323B64ECF00E53D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI A Different Taste";
+			productName = "SwiftUI A Different Taste";
+			productReference = 86576F2523B64ED000E53D5F /* SwiftUI A Different Taste.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86576F3A23B64ED400E53D5F /* SwiftUI A Different TasteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86576F5223B64ED400E53D5F /* Build configuration list for PBXNativeTarget "SwiftUI A Different TasteTests" */;
+			buildPhases = (
+				86576F3723B64ED400E53D5F /* Sources */,
+				86576F3823B64ED400E53D5F /* Frameworks */,
+				86576F3923B64ED400E53D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86576F3D23B64ED400E53D5F /* PBXTargetDependency */,
+			);
+			name = "SwiftUI A Different TasteTests";
+			productName = "SwiftUI A Different TasteTests";
+			productReference = 86576F3B23B64ED400E53D5F /* SwiftUI A Different TasteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86576F4523B64ED400E53D5F /* SwiftUI A Different TasteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86576F5523B64ED400E53D5F /* Build configuration list for PBXNativeTarget "SwiftUI A Different TasteUITests" */;
+			buildPhases = (
+				86576F4223B64ED400E53D5F /* Sources */,
+				86576F4323B64ED400E53D5F /* Frameworks */,
+				86576F4423B64ED400E53D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86576F4823B64ED400E53D5F /* PBXTargetDependency */,
+			);
+			name = "SwiftUI A Different TasteUITests";
+			productName = "SwiftUI A Different TasteUITests";
+			productReference = 86576F4623B64ED400E53D5F /* SwiftUI A Different TasteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86576F1D23B64ECF00E53D5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Farooq Rasheed";
+				TargetAttributes = {
+					86576F2423B64ECF00E53D5F = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					86576F3A23B64ED400E53D5F = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 86576F2423B64ECF00E53D5F;
+					};
+					86576F4523B64ED400E53D5F = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 86576F2423B64ECF00E53D5F;
+					};
+				};
+			};
+			buildConfigurationList = 86576F2023B64ECF00E53D5F /* Build configuration list for PBXProject "SwiftUI A Different Taste" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86576F1C23B64ECF00E53D5F;
+			productRefGroup = 86576F2623B64ED000E53D5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86576F2423B64ECF00E53D5F /* SwiftUI A Different Taste */,
+				86576F3A23B64ED400E53D5F /* SwiftUI A Different TasteTests */,
+				86576F4523B64ED400E53D5F /* SwiftUI A Different TasteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86576F2323B64ECF00E53D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86576F3523B64ED300E53D5F /* LaunchScreen.storyboard in Resources */,
+				86576F3223B64ED300E53D5F /* Preview Assets.xcassets in Resources */,
+				86576F2F23B64ED300E53D5F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86576F3923B64ED400E53D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86576F4423B64ED400E53D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86576F2123B64ECF00E53D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86576F2923B64ED000E53D5F /* AppDelegate.swift in Sources */,
+				86576F2B23B64ED000E53D5F /* SceneDelegate.swift in Sources */,
+				86576F2D23B64ED000E53D5F /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86576F3723B64ED400E53D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86576F4023B64ED400E53D5F /* SwiftUI_A_Different_TasteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86576F4223B64ED400E53D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86576F4B23B64ED400E53D5F /* SwiftUI_A_Different_TasteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86576F3D23B64ED400E53D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86576F2423B64ECF00E53D5F /* SwiftUI A Different Taste */;
+			targetProxy = 86576F3C23B64ED400E53D5F /* PBXContainerItemProxy */;
+		};
+		86576F4823B64ED400E53D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86576F2423B64ECF00E53D5F /* SwiftUI A Different Taste */;
+			targetProxy = 86576F4723B64ED400E53D5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86576F3323B64ED300E53D5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86576F3423B64ED300E53D5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86576F4D23B64ED400E53D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86576F4E23B64ED400E53D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86576F5023B64ED400E53D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI A Different Taste/Preview Content\"";
+				DEVELOPMENT_TEAM = U2UUM8BNUG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI A Different Taste/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.farooq.SwiftUIADifferentTaste.SwiftUI-A-Different-Taste";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86576F5123B64ED400E53D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI A Different Taste/Preview Content\"";
+				DEVELOPMENT_TEAM = U2UUM8BNUG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI A Different Taste/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.farooq.SwiftUIADifferentTaste.SwiftUI-A-Different-Taste";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86576F5323B64ED400E53D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2UUM8BNUG;
+				INFOPLIST_FILE = "SwiftUI A Different TasteTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.farooq.SwiftUIADifferentTaste.SwiftUI-A-Different-TasteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI A Different Taste.app/SwiftUI A Different Taste";
+			};
+			name = Debug;
+		};
+		86576F5423B64ED400E53D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2UUM8BNUG;
+				INFOPLIST_FILE = "SwiftUI A Different TasteTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.farooq.SwiftUIADifferentTaste.SwiftUI-A-Different-TasteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI A Different Taste.app/SwiftUI A Different Taste";
+			};
+			name = Release;
+		};
+		86576F5623B64ED400E53D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2UUM8BNUG;
+				INFOPLIST_FILE = "SwiftUI A Different TasteUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.farooq.SwiftUIADifferentTaste.SwiftUI-A-Different-TasteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwiftUI A Different Taste";
+			};
+			name = Debug;
+		};
+		86576F5723B64ED400E53D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2UUM8BNUG;
+				INFOPLIST_FILE = "SwiftUI A Different TasteUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.farooq.SwiftUIADifferentTaste.SwiftUI-A-Different-TasteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwiftUI A Different Taste";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86576F2023B64ECF00E53D5F /* Build configuration list for PBXProject "SwiftUI A Different Taste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86576F4D23B64ED400E53D5F /* Debug */,
+				86576F4E23B64ED400E53D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86576F4F23B64ED400E53D5F /* Build configuration list for PBXNativeTarget "SwiftUI A Different Taste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86576F5023B64ED400E53D5F /* Debug */,
+				86576F5123B64ED400E53D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86576F5223B64ED400E53D5F /* Build configuration list for PBXNativeTarget "SwiftUI A Different TasteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86576F5323B64ED400E53D5F /* Debug */,
+				86576F5423B64ED400E53D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86576F5523B64ED400E53D5F /* Build configuration list for PBXNativeTarget "SwiftUI A Different TasteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86576F5623B64ED400E53D5F /* Debug */,
+				86576F5723B64ED400E53D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86576F1D23B64ECF00E53D5F /* Project object */;
+}
